@@ -22,10 +22,12 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are: 
+From the set of variables that were estimated from these signals we keep only: 
 
 mean(): Mean value
 std(): Standard deviation
+
+The train and test data were combined (and named using the variable names in feature.txt) and corresponding subject and activity data were added to the data frame. The activity values were named.
 
 These data were averaged by each subject and activity.
 The final variables are 
